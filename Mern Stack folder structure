@@ -1,0 +1,68 @@
+admin-portal/
+│
+├── backend/
+│   ├── config/
+│   │   └── config.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── userController.js
+│   │   └── ...otherControllers.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorHandler.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── ...otherModels.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── userRoutes.js
+│   │   └── ...otherRoutes.js
+│   ├── utils/
+│   │   └── helperFunctions.js
+│   ├── validations/
+│   │   └── userValidation.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── ...otherPublicFiles
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── css/
+│   │   │   │   └── styles.css
+│   │   │   └── images/
+│   │   │       └── logo.png
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Header.js
+│   │   │   │   ├── Footer.js
+│   │   │   │   └── ...otherCommonComponents.js
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   ├── Register.js
+│   │   │   │   └── ...otherAuthComponents.js
+│   │   │   └── admin/
+│   │   │       ├── Dashboard.js
+│   │   │       ├── UserManagement.js
+│   │   │       └── ...otherAdminComponents.js
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   ├── hooks/
+│   │   │   └── useAuth.js
+│   │   ├── pages/
+│   │   │   ├── LoginPage.js
+│   │   │   ├── DashboardPage.js
+│   │   │   └── ...otherPages.js
+│   │   ├── services/
+│   │   │   ├── authService.js
+│   │   │   └── userService.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── package.json
+│
+├── .gitignore
+├── README.md
+└── package.json
